@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+     
+    background-color: #756A70;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23877c82' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%23979094' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%23a8a3a6' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%23b9b6b8' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%23cbc9ca' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%23dcdcdc' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%23EEE' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+
+
+ 
+   /*  background-repeat: space;
+    background-attachment: fixed; */
+    /* background-size: cover; */
+    background-size: auto;
+   /* background-clip: border-box; */
+   background-position: center bottom;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    background-color: rgb(175, 226, 209);
+    border-radius: 30px;
+}
+
+h2{
+    text-transform: uppercase;
+    margin-bottom: 3%;
+    background-color: rgb(129, 129, 233);
+    border-radius: 30px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+    margin-bottom: 2%;
+    text-indent: 100px;
+    background-color: rgb(172, 122, 219);
+    border-radius: 30px;
+}
+img{
+    border-radius: 100px;
+    border:solid 5px rgb(91, 216, 102);
+}
